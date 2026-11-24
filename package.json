@@ -1,0 +1,33 @@
+{
+  "name": "sgcl-app",
+  "version": "1.0.0",
+  "description": "Sistema de Gestão de Clientes para Profissionais Liberais (SGCL) - Protótipo TypeScript",
+  "main": "index.ts",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@expo/metro-runtime": "~58.0.17",
+    "@expo/vector-icons": "latest",
+    "@react-navigation/native": "latest",
+    "@react-navigation/native-stack": "latest",
+    "expo": "^58.0.26",
+    "expo-linear-gradient": "latest",
+    "expo-status-bar": "latest",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-native": "latest",
+    "react-native-safe-area-context": "latest",
+    "react-native-screens": "latest",
+    "react-native-web": "^0.21.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.29.7",
+    "@types/react": "latest",
+    "typescript": "~6.0.3"
+  },
+  "private": true
+}
